@@ -41,6 +41,7 @@ iscritto al portale.
 Ogni Preferenza incapsula la competenza relativa alle modalitá in cui confrontare se stessa con la caratterisitca
 associata direttamente ad essa. Esempio:  
 La Preferenza PreferenzaEta valuta la CaratteristicaEta per verificare se questa rientra nei parametri definiti dal 
-richiedente. In tal caso asssegna un punteggio predefinito nella Preferenza.
+richiedente.  
+In tal caso asssegna un punteggio predefinito nella Preferenza.
 
 
