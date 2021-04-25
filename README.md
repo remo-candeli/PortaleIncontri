@@ -1,5 +1,5 @@
   
-Portale Incontri
+**Portale Incontri**
 
 Realizzare una applicazione che consenta la registrazione di più persone ad un portale per incontri.
 Ipoteticamente questi dati saranno registrati sul DB, ma per ora non ci interessa. Dovranno dunque essere usate le collections.
@@ -20,7 +20,7 @@ In java nativamente non esistono oggenti di tipo range. Forse si potrebbero util
 
 
 
-** Implementazione **
+**Implementazione**
 
 Il portale incontri prevede che un Utente del sistema sia anche una Persona.
 La persona deve possedere delle Caratteristiche proprie (Colore degli occhi, Altezza, Etá, ecc..).
