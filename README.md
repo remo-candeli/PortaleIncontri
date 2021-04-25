@@ -32,5 +32,15 @@ anima gemella.
 Le Preferenze sono esprimibili in varie forme (intervalli o elenchi).  
 Gli intervalli (Es.: etá dai 45 ai 50 anni) si esprimono indicando tipicamente un valore minimo
 ed un massimo.  
-Gli elenchi (Es.: Hobbies TENNISS, CALCIO, CINEMA, PASSEGGIATE, ecc..) si esprimono con 
+Gli elenchi (Es.: Hobbies TENNIS, CALCIO, CINEMA, PASSEGGIATE, ecc..) si esprimono con 
 elenchi che sono stati gestiti attraverso Enumeratori di Java.  
+
+Il sistema esegue la ricerca dell'anima gemella in base ad un soggetto richiedente (Utente registrato).  
+La ricerca viene effettuata mettendo a confronto le Preferenze del richiedente con le Caratteristiche di ogni
+iscritto al portale.  
+Ogni Preferenza incapsula la competenza relativa alle modalitá in cui confrontare se stessa con la caratterisitca
+associata direttamente ad essa. Esempio:  
+La Preferenza PreferenzaEta valuta la CaratteristicaEta per verificare se questa rientra nei parametri definiti dal 
+richiedente. In tal caso asssegna un punteggio predefinito nella Preferenza.
+
+
