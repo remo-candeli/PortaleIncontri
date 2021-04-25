@@ -34,8 +34,8 @@ public class EstrattoreAnimaGemella implements MotoreRicerca {
         coefficientiMatchingCandidati = new HashMap<>();
         Map<Utente, Long> coefficienteCandidato = new HashMap<>();
         for(Utente iscritto: elencoIscritti) {
-            int totaleCoefficienteMatches = calcolaMatchingComplessivo(richiedente.getPreferenze(), iscritto.getPersona());
             if (!iscritto.getPersona().equals(richiedente.getPersona())) {
+                int totaleCoefficienteMatches = calcolaMatchingComplessivo(richiedente.getPreferenze(), iscritto.getPersona());
                 if (totaleCoefficienteMatches >= COEFFICIENTE_MATCH_LIMITE_MINIMO) {
                     affinitaCandidati.put(iscritto, calcoloAffinita(richiedente.getPreferenze(), iscritto.getPreferenze()));
                     coefficienteCandidato.put(iscritto, Integer.toUnsignedLong(totaleCoefficienteMatches));

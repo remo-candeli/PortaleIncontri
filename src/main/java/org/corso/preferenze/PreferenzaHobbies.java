@@ -20,7 +20,7 @@ public class PreferenzaHobbies extends Preferenza {
         return hobbies;
     }
 
-    /* Violato il principio di Liskov ....bravo!!!! */
+    // FIXME RM Violato il principio di Liskov (SOLID principles)....bravo!!!!
     @Override
     public boolean match(Caratteristica caratteristica) {
         return false;
