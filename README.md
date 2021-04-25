@@ -22,15 +22,15 @@ In java nativamente non esistono oggenti di tipo range. Forse si potrebbero util
 
 **Implementazione**
 
-Il portale incontri prevede che un Utente del sistema sia anche una Persona.
-La persona deve possedere delle Caratteristiche proprie (Colore degli occhi, Altezza, Etá, ecc..).
+Il portale incontri prevede che un Utente del sistema sia anche una Persona.  
+La persona deve possedere delle Caratteristiche proprie (Colore degli occhi, Altezza, Etá, ecc..).  
 
-La registrazione di un Utente prevede la necessitá di indicare anche le sue Preferenze.
+La registrazione di un Utente prevede la necessitá di indicare anche le sue Preferenze.  
 Le Preferenze sono un elenco di attributi che l'Utente desidera riscontrare nella sua ideale
-anima gemella.
+anima gemella.  
 
-Le Preferenze sono esprimibili in varie forme (intervalli o elenchi).
+Le Preferenze sono esprimibili in varie forme (intervalli o elenchi).  
 Gli intervalli (Es.: etá dai 45 ai 50 anni) si esprimono indicando tipicamente un valore minimo
-ed un massimo.
+ed un massimo.  
 Gli elenchi (Es.: Hobbies TENNISS, CALCIO, CINEMA, PASSEGGIATE, ecc..) si esprimono con 
-elenchi che sono stati gestiti attraverso Enumeratori di Java.
+elenchi che sono stati gestiti attraverso Enumeratori di Java.  
