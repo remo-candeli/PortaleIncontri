@@ -1,6 +1,5 @@
-=============================================  
-PLAY01 - Portale Incontri  
-=============================================
+  
+Portale Incontri
 
 Realizzare una applicazione che consenta la registrazione di più persone ad un portale per incontri.
 Ipoteticamente questi dati saranno registrati sul DB, ma per ora non ci interessa. Dovranno dunque essere usate le collections.
@@ -18,3 +17,20 @@ Nota 1: la preferenza relativa ad una certa caratteristica, in questi contesti, 
 In java nativamente non esistono oggenti di tipo range. Forse si potrebbero utilizzare gli ArrayList per emularli.
 
 * Implementare anche i test unitari.
+
+
+
+** Implementazione **
+
+Il portale incontri prevede che un Utente del sistema sia anche una Persona.
+La persona deve possedere delle Caratteristiche proprie (Colore degli occhi, Altezza, Etá, ecc..).
+
+La registrazione di un Utente prevede la necessitá di indicare anche le sue Preferenze.
+Le Preferenze sono un elenco di attributi che l'Utente desidera riscontrare nella sua ideale
+anima gemella.
+
+Le Preferenze sono esprimibili in varie forme (intervalli o elenchi).
+Gli intervalli (Es.: etá dai 45 ai 50 anni) si esprimono indicando tipicamente un valore minimo
+ed un massimo.
+Gli elenchi (Es.: Hobbies TENNISS, CALCIO, CINEMA, PASSEGGIATE, ecc..) si esprimono con 
+elenchi che sono stati gestiti attraverso Enumeratori di Java.
