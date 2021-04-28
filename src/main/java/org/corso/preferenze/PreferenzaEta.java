@@ -1,9 +1,7 @@
 package org.corso.preferenze;
 
 import org.corso.caratteristiche.Caratteristica;
-import org.corso.caratteristiche.CaratteristicaAltezza;
 import org.corso.caratteristiche.CaratteristicaEta;
-import org.corso.caratteristiche.CaratteristicaOcchi;
 
 public class PreferenzaEta extends Preferenza {
     public static final int PESO_ETA_PREFERENZA = 10;
@@ -41,6 +39,8 @@ public class PreferenzaEta extends Preferenza {
         }
         return false;
     }
+
+
 
     @Override
     public long confronta(Preferenza preferenzaDaConfrontare)  {

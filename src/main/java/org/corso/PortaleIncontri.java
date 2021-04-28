@@ -98,6 +98,7 @@ public class PortaleIncontri {
      * @param richiedente
      */
     public void stampaReport(Utente richiedente) {
+
         reportIncontri.stampa(richiedente, estrattoreAnimaGemella);
     }
 

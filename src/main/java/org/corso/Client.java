@@ -8,15 +8,20 @@ import org.corso.reports.ReportIncontriConMatchFalliti;
 import org.corso.reports.ReportIncontriStandard;
 import org.corso.utils.RandomizeUtil;
 import org.corso.valutatori.EstrattoreAnimaGemella;
+import org.corso.valutatori.EstrattoreAnimaGemellaExtended;
 import org.corso.valutatori.MotoreRicerca;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
 
 public class Client {
 
     public static void main(String[] args) {
         MotoreRicerca valutatore = new EstrattoreAnimaGemella();
-        IReportIncontri reportIncontri = new ReportIncontriStandard();
+        valutatore = new EstrattoreAnimaGemellaExtended();
+        IReportIncontri reportIncontri = new ReportIncontriConMatchFalliti();
         PortaleIncontri portale = new PortaleIncontri(valutatore, reportIncontri);
 
         Set<Persona> persone = generaPersone();
